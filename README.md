@@ -1,18 +1,22 @@
-Алгоритм рисует поле для игры в сапера.<br>
-На вход: размер поля и координаты мин.<br>
-На выходе: поле с верной разметкой (то есть числами в клетках вокруг мин).<br>
+<b>Minesweeper</b>
 
-**Пример работы:**<br>
-Введите высоту поля: 4<br>
-Введите ширину поля: 4<br>
-Введите количество мин: 3<br>
-Введите x-координату мины 1: 1<br>
-Введите y-координату мины 1: 1<br>
-Введите x-координату мины 2: 3<br>
-Введите y-координату мины 2: 2<br>
-Введите x-координату мины 3: 4<br>
-Введите y-координату мины 3: 1<br>
-['*', 1, 0, 0]<br>
-[2, 2, 1, 0]<br>
-[2, '*', 1, 0]<br>
-['*', 2, 1, 0]<br>
+This study project draws Minesweeper playground.<br>
+User enters field size and coordinates of mines.<br>
+App shows right playground (with numbers around mines).<br>
+
+**Example:**<br>
+```
+Playground height: 4
+Playground width: 4
+Number of mines: 3
+X-coordinate of the mine 1: 1
+Y-coordinate of the mine 1: 2
+X-coordinate of the mine 2: 4
+Y-coordinate of the mine 2: 1
+X-coordinate of the mine 3: 2
+Y-coordinate of the mine 3: 3
+[1, '*', 2, 1]
+[1, 2, '*', 1]
+[1, 2, 1, 1]
+['*', 1, 0, 0]
+```
